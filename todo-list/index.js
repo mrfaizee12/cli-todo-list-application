@@ -70,7 +70,7 @@ async function updateTask() {
         }
     ]);
     todos[updateChoice.index - 1] = updateChoice.updatedTask;
-    console.log(chalk.bgWhiteBright.bold('\n \t Task updated successfully.\n'));
+    console.log(chalk.bgMagentaBright.bold('\n \t Task updated successfully.\n'));
 }
 async function deleteTask() {
     if (todos.length === 0) {
